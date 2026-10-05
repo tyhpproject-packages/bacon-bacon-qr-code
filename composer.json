@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/bacon-bacon-qr-code",
+    "description": "Tyhp type definitions for bacon/bacon-qr-code 3.1.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.1.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/bacon-bacon-qr-code-impl": "~3.1.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/bacon-bacon-qr-code-impl"
+        }
+    }
+}
